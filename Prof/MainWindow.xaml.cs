@@ -1,17 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using System.IO;
 
 
@@ -32,7 +22,7 @@ namespace Prof
         }
         public void showAllNotes()
         {
-            allfiles = Directory.GetFiles(Environment.CurrentDirectory + "\\notes", "*.txt");
+            allfiles = Directory.GetFiles( "notes", "*.txt");
             foreach (string onlyName in allfiles)
             {
                 allfiles[countFiles] = System.IO.Path.GetFileNameWithoutExtension(onlyName);
@@ -49,9 +39,15 @@ namespace Prof
 
         private void listBox1_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            string data = File.ReadAllText(Environment.CurrentDirectory + 
-                "\\notes\\" + listBox1.SelectedItem.ToString() + ".txt");
-            textbox1.Text = data;
+            try
+            {
+                string data = File.ReadAllText( "notes\\" + listBox1.SelectedItem.ToString() + ".txt");
+                textbox1.Text = data;
+            }catch
+            
+            {
+                textbox1.Clear();
+            }
         }
 
         private void button1_MouseDown(object sender, MouseButtonEventArgs e)

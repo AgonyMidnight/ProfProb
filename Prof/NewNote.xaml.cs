@@ -32,9 +32,9 @@ namespace Prof
             if (textBox1.Text.Length > 0 && TextBox2.Text.Length > 0)
             {
           
-                if (File.Exists(Environment.CurrentDirectory + "\\notes\\" + textBox1.Text + ".txt")) 
-                    File.Create(Environment.CurrentDirectory + "\\notes\\" + textBox1.Text + ".txt").Close();
-                File.WriteAllText(Environment.CurrentDirectory + "\\notes\\" + textBox1.Text + ".txt", TextBox2.Text);
+                if (File.Exists("notes\\" + textBox1.Text + ".txt")) 
+                    File.Create("notes\\" + textBox1.Text + ".txt").Close();
+                File.WriteAllText( "notes\\" + textBox1.Text + ".txt", TextBox2.Text);
                 mainWindow.listBox1.Items.Clear();
                 mainWindow.showAllNotes();
                 this.Close();

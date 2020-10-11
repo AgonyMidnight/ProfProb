@@ -1,0 +1,16 @@
+C:\Users\Agony\Desktop\ProfProb\Prof\bin\Release\Prof.exe.config
+C:\Users\Agony\Desktop\ProfProb\Prof\bin\Release\Prof.exe
+C:\Users\Agony\Desktop\ProfProb\Prof\bin\Release\Prof.pdb
+C:\Users\Agony\Desktop\ProfProb\Prof\obj\Release\MainWindow.baml
+C:\Users\Agony\Desktop\ProfProb\Prof\obj\Release\MainWindow.g.cs
+C:\Users\Agony\Desktop\ProfProb\Prof\obj\Release\NewNote.g.cs
+C:\Users\Agony\Desktop\ProfProb\Prof\obj\Release\App.g.cs
+C:\Users\Agony\Desktop\ProfProb\Prof\obj\Release\Prof_MarkupCompile.cache
+C:\Users\Agony\Desktop\ProfProb\Prof\obj\Release\Prof_MarkupCompile.lref
+C:\Users\Agony\Desktop\ProfProb\Prof\obj\Release\NewNote.baml
+C:\Users\Agony\Desktop\ProfProb\Prof\obj\Release\Prof.g.resources
+C:\Users\Agony\Desktop\ProfProb\Prof\obj\Release\Prof.Properties.Resources.resources
+C:\Users\Agony\Desktop\ProfProb\Prof\obj\Release\Prof.csproj.GenerateResource.cache
+C:\Users\Agony\Desktop\ProfProb\Prof\obj\Release\Prof.csproj.CoreCompileInputs.cache
+C:\Users\Agony\Desktop\ProfProb\Prof\obj\Release\Prof.exe
+C:\Users\Agony\Desktop\ProfProb\Prof\obj\Release\Prof.pdb
