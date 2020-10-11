@@ -1,0 +1,16 @@
+D:\Learn\Prof\Prof\bin\Debug\Prof.exe.config
+D:\Learn\Prof\Prof\bin\Debug\Prof.exe
+D:\Learn\Prof\Prof\bin\Debug\Prof.pdb
+D:\Learn\Prof\Prof\obj\Debug\Prof.csprojAssemblyReference.cache
+D:\Learn\Prof\Prof\obj\Debug\MainWindow.g.cs
+D:\Learn\Prof\Prof\obj\Debug\App.g.cs
+D:\Learn\Prof\Prof\obj\Debug\Prof_MarkupCompile.cache
+D:\Learn\Prof\Prof\obj\Debug\Prof_MarkupCompile.lref
+D:\Learn\Prof\Prof\obj\Debug\MainWindow.baml
+D:\Learn\Prof\Prof\obj\Debug\Prof.g.resources
+D:\Learn\Prof\Prof\obj\Debug\Prof.Properties.Resources.resources
+D:\Learn\Prof\Prof\obj\Debug\Prof.csproj.GenerateResource.cache
+D:\Learn\Prof\Prof\obj\Debug\Prof.exe
+D:\Learn\Prof\Prof\obj\Debug\Prof.pdb
+D:\Learn\Prof\Prof\obj\Debug\NewNote.g.cs
+D:\Learn\Prof\Prof\obj\Debug\NewNote.baml

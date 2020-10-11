@@ -1,0 +1,34 @@
+﻿<Window x:Class="Prof.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Prof"
+        mc:Ignorable="d"
+        Title="Памятка" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#F5DEB3" Offset="0"/>
+                <GradientStop Color="#CCC71CD8" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TabControl Height="auto" Margin="10,40,10,10" Width="auto">
+            <TabItem Header="Заметки" Background="#AFEEEE" Width="100">
+                <Grid Background="#FFF0F5">
+
+                    <Button x:Name="button1" Content="+" Foreground="Blue" BorderBrush="Blue"  HorizontalAlignment="Right" Margin="0,5,5,5" VerticalAlignment="Top" Width="20" Height="20" FontWeight="Bold" MouseDown="button1_MouseDown" Click="button1_Click"/>
+                    <TextBox x:Name="textbox1" MinHeight="130" Height="130" Margin="5,0,5,5" TextWrapping="Wrap" Text="" Width="auto" IsReadOnly="True" VerticalAlignment="Bottom"/>
+                    <ListBox x:Name="listBox1" Height="187" Margin="5,5,30,0" Width="auto" VerticalAlignment="Top" MouseDown="listBox1_MouseDown" SelectionChanged="listBox1_SelectionChanged" />
+                </Grid>
+            </TabItem>
+            <TabItem Header="Календарь" Background="#DDA0DD" Width="100">
+                <Grid Background="#FFF0F5">
+                    <Calendar HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="168" Width="282" Background="LightCyan" FontSize="18" />
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <Label x:Name="label1" Content="Date" HorizontalAlignment="Right" Margin="0,5,5,5" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
