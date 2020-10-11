@@ -22,9 +22,12 @@
                     <ListBox x:Name="listBox1" Height="187" Margin="5,5,30,0" Width="auto" VerticalAlignment="Top" MouseDown="listBox1_MouseDown" SelectionChanged="listBox1_SelectionChanged" />
                 </Grid>
             </TabItem>
-            <TabItem Header="Календарь" Background="#DDA0DD" Width="100">
-                <Grid Background="#FFF0F5">
-                    <Calendar HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="168" Width="282" Background="LightCyan" FontSize="18" />
+            <TabItem x:Name="ItemCalendar" Header="Календарь" Background="#DDA0DD" Width="100">
+                <Grid>
+                    <Grid.Background>
+                        <ImageBrush x:Name="imgBrush" Stretch="UniformToFill"/>
+                    </Grid.Background>
+                    <Calendar x:Name="calendar" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="168" Width="188"  FontSize="18" Background="#FFFFFF" />
                 </Grid>
             </TabItem>
         </TabControl>

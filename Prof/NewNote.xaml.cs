@@ -1,17 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.IO;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace Prof
 {
@@ -32,9 +20,9 @@ namespace Prof
             if (textBox1.Text.Length > 0 && TextBox2.Text.Length > 0)
             {
           
-                if (File.Exists(Environment.CurrentDirectory + "\\notes\\" + textBox1.Text + ".txt")) 
-                    File.Create(Environment.CurrentDirectory + "\\notes\\" + textBox1.Text + ".txt").Close();
-                File.WriteAllText(Environment.CurrentDirectory + "\\notes\\" + textBox1.Text + ".txt", TextBox2.Text);
+                if (File.Exists("notes\\" + textBox1.Text + ".txt")) 
+                    File.Create( "notes\\" + textBox1.Text + ".txt").Close();
+                File.WriteAllText("notes\\" + textBox1.Text + ".txt", TextBox2.Text);
                 mainWindow.listBox1.Items.Clear();
                 mainWindow.showAllNotes();
                 this.Close();
